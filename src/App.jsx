@@ -9,12 +9,9 @@ function App() {
   return (
     <div>
       <Header />
-      <main
-        style={{ backgroundColor: background }}
-        onClick={generateRandomColor}
-      >
+      <main style={{ backgroundColor: background }}>
         <h2>Background Color: {background}</h2>
-        <button>Change Color</button>
+        <button onClick={generateRandomColor}>Change Color</button>
       </main>
     </div>
   );
